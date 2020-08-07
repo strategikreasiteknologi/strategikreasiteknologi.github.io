@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="537" height="531" viewBox="0 0 537 531">
+  <defs>
+    <filter id="Rectangle_467" x="0" y="460" width="210" height="71" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="textwebsite" transform="translate(-1126 -1233)">
+    <text id="Solusi_kebutuhan_website_Anda" data-name="Solusi kebutuhan
+website Anda" transform="translate(1135 1302)" font-size="64" font-family="PlayfairDisplay-Bold, Playfair Display" font-weight="700"><tspan x="0" y="0">Solusi kebutuhan</tspan><tspan x="0" y="85">website Anda</tspan></text>
+    <text id="lorem_ipsum_dolor_sit_amet_lorem_ipsum_dolor_sit_amet_lorem_ipsum_dolor_sit_amet_lorem_ipsum_dolor_sit_amet" data-name="lorem ipsum dolor sit amet lorem
+ipsum dolor sit amet lorem ipsum
+dolor sit amet lorem ipsum dolor 
+sit amet" transform="translate(1135 1485)" font-size="34" font-family="Muli-SemiBold, Muli" font-weight="600"><tspan x="0" y="0">lorem ipsum dolor sit amet lorem</tspan><tspan x="0" y="54">ipsum dolor sit amet lorem ipsum</tspan><tspan x="0" y="108">dolor sit amet lorem ipsum dolor </tspan><tspan x="0" y="162">sit amet</tspan></text>
+    <g id="buttonwebsite" transform="translate(945 1104)">
+      <g transform="matrix(1, 0, 0, 1, 181, 129)" filter="url(#Rectangle_467)">
+        <rect id="Rectangle_467-2" data-name="Rectangle 467" width="192" height="53" rx="26.5" transform="translate(9 466)" fill="#4588ff"/>
+      </g>
+      <text id="Selengkapnya" transform="translate(230 629)" fill="#fff" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Selengkapnya</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,133 @@
+@import "bootstrap/dist/css/bootstrap.css";
+@import "animate.css/animate.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:600,500,400,300");
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+nav a {
+  background-color: #4588ff;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100vh; /* Full height */
+  overflow: auto;
+  background-color: white; /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.9); /* Black w/ opacity */
+}
+.menu ul {
+  text-align: center;
+  padding: 0;
+  list-style-type: none;
+}
+.menu span {
+  padding-right: 1.5rem;
+  font-size: 5rem;
+}
+button.bars {
+  height: 4rem;
+  width: 4rem;
+}
+
+.section-1 {
+  background: url(../assets/ilustrasi.svg) center right/ 60% 80% no-repeat,
+    url(../assets/white-decoration.svg) 90vw 50vh no-repeat,
+    url(../assets/pojokkiriatas.svg) -450px -168px no-repeat,
+    url(../assets/bg-section1.svg) no-repeat;
+}
+
+.f-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.f-muli {
+  font-family: "Muli", sans-serif;
+}
+.f-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.text-blue-stratech {
+  color: #005abb;
+}
+.text-gold {
+  color: gold;
+}
+.bg-blue-stratech {
+  background-color: #4588ff;
+}
+.bg-blue-light {
+  background-color: #f7f7ff;
+}
+
+.bg-half {
+  background-image: linear-gradient(white 50%, #4588ff 50%);
+}
+
+#card-collection {
+  display: block;
+  overflow: auto;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+#card-collection .card {
+  width: 234px;
+  display: inline-block;
+  float: none;
+  white-space: normal;
+}
+
+#card-collection::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#card-collection::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+#card-collection::-webkit-scrollbar-thumb {
+  background: #5a82cf;
+}
+
+/* Handle on hover */
+#card-collection::-webkit-scrollbar-thumb:hover {
+  background: #005abb;
+}
+
+@media only screen and (max-width: 576px) {
+  .section-1 {
+    background: url(../assets/white-decoration.svg) 65vw 40vh no-repeat,
+      url(../assets/pojokkiriatas.svg) -450px -168px no-repeat,
+      url(../assets/pojokkiriatas.svg) 70vw 30vh/ 200% no-repeat;
+  }
+  .section-1 .jumbotron {
+    margin-left: 1rem !important;
+  }
+}
