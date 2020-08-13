@@ -66,6 +66,13 @@ button.bars {
     url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
     url(../images/bg-section1.svg) no-repeat;
 }
+.section-3 {
+  background: url(../images/ilustrasi-service.svg) center right/ 60% 80%
+      no-repeat,
+    url(../images/white-decoration.svg) 90vw 50vh no-repeat,
+    url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
+    url(../images/bg-section1.svg) no-repeat;
+}
 .decoration {
   background: url(../images/white-decoration.svg) 90vw 70vh fixed no-repeat,
     url(../images/white-decoration.svg) -5vw 10vh fixed no-repeat;
