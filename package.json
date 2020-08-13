@@ -16,6 +16,30 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-custom-dist-structure": "^1.1.14",
     "parcel-plugin-purgecss": "^3.0.0"
+  },
+  "customDistStructure": {
+    "config": {
+      ".js": "assets/js",
+      ".js.map": "assets/js",
+      ".css": "assets/css",
+      ".css.map": "assets/css",
+      "assets/images": [
+        ".jpg",
+        ".png",
+        ".svg"
+      ],
+      "assets/fonts": [
+        ".woff",
+        ".woff2",
+        ".ttf"
+      ],
+      ".fileExtension": "folder/in/dist",
+      "folder/in/dist": [
+        ".file",
+        ".extensions"
+      ]
+    }
   }
 }
