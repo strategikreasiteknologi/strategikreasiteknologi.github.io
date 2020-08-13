@@ -60,6 +60,16 @@ button.bars {
     url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
     url(../images/bg-section1.svg) no-repeat;
 }
+.section-2 {
+  background: url(../images/ilustrasi-about.svg) center right/ 60% 80% no-repeat,
+    url(../images/white-decoration.svg) 90vw 50vh no-repeat,
+    url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
+    url(../images/bg-section1.svg) no-repeat;
+}
+.decoration {
+  background: url(../images/white-decoration.svg) 90vw 70vh fixed no-repeat,
+    url(../images/white-decoration.svg) -5vw 10vh fixed no-repeat;
+}
 
 .f-playfair {
   font-family: "Playfair Display", serif;
@@ -134,14 +144,14 @@ img.testimoni {
 
 @media only screen and (max-width: 576px) {
   img.logo {
-    height: 100px;
+    height: 90px;
   }
-  .section-1 {
+  .section {
     background: url(../images/white-decoration.svg) 65vw 40vh no-repeat,
       url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
       url(../images/pojokkiriatas.svg) 70vw 30vh/ 200% no-repeat;
   }
-  .section-1 .jumbotron {
+  .section .jumbotron {
     margin-left: 1rem !important;
   }
   img.testimoni {
