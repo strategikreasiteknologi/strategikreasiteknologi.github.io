@@ -73,6 +73,15 @@ button.bars {
     url(../images/pojokkiriatas.svg) -450px -168px no-repeat,
     url(../images/bg-section1.svg) no-repeat;
 }
+
+.section-pembuatan-website {
+  background: url(../images/bg-laptop.png) center no-repeat;
+}
+
+.section-digital-marketing {
+  background: url(../images/bg-chart.png) center no-repeat;
+}
+
 .decoration {
   background: url(../images/white-decoration.svg) 90vw 70vh fixed no-repeat,
     url(../images/white-decoration.svg) -5vw 10vh fixed no-repeat;
@@ -138,6 +147,20 @@ button.bars {
   background-image: linear-gradient(white 50%, #4588ff 50%);
 }
 
+.border-radius-custom {
+  border-radius: 20px;
+}
+.border-radius-custom-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.border-radius-custom-bottom {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.nav-bg-none a {
+  background-color: transparent;
+}
 span.highlight {
   background: linear-gradient(
     rgba(224, 239, 255, 0) 50%,
