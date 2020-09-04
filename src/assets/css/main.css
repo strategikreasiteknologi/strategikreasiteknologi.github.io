@@ -91,6 +91,10 @@ button.bars {
   background: url(../images/bg-chart.png) center no-repeat;
 }
 
+.section-implementasi-erp {
+  background: url(../images/bg-erp.png) center no-repeat;
+}
+
 .section-game-development {
   background: url(../images/bg-game-dev.png) center no-repeat;
 }
