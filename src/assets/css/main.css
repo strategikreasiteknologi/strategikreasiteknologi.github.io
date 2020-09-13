@@ -129,6 +129,10 @@ button.bars {
 .text-gold {
   color: gold;
 }
+
+.h-85 {
+  height: 85% !important;
+}
 .bg-blue-stratech {
   background-color: #4588ff;
 }

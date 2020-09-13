@@ -1,5 +1,3 @@
-import "bootstrap";
-
 const openMenu = document.querySelector("#openMenu");
 openMenu.addEventListener("click", () => {
   let menu = document.querySelector(".menu");
