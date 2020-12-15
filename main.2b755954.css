@@ -19096,9 +19096,13 @@ button.bars {
   background-color: #ffdb9c;
 }
 .bg-half {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), color-stop(50%, #4588ff));
+  background-image: -o-linear-gradient(white 50%, #4588ff 50%);
   background-image: linear-gradient(white 50%, #4588ff 50%);
 }
 .bg-half-reverse {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #4588ff), color-stop(50%, white));
+  background-image: -o-linear-gradient(#4588ff 50%, white 50%);
   background-image: linear-gradient(#4588ff 50%, white 50%);
 }
 .border-radius-custom {
@@ -19124,6 +19128,16 @@ button.bars {
   background-color: transparent;
 }
 span.highlight {
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    color-stop(50%, rgba(224, 239, 255, 0)),
+    color-stop(50%, rgba(224, 239, 255))
+  );
+  background: -o-linear-gradient(
+    rgba(224, 239, 255, 0) 50%,
+    rgba(224, 239, 255) 50%
+  );
   background: linear-gradient(
     rgba(224, 239, 255, 0) 50%,
     rgba(224, 239, 255) 50%
